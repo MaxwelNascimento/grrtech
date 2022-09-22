@@ -65,6 +65,10 @@
             .disabled{
                 a{
                     cursor: default;
+
+                    &:hover{
+                        color: $white;
+                    }
                 }
             }
         }
@@ -216,7 +220,7 @@ main {
             
             &-btn{
                 @include flex(row,center,center);
-                margin-top: 1rem;
+                margin: 2rem 0 3rem 0;
 
                 button{
                     color: $orange;
@@ -242,7 +246,6 @@ main {
             &-icons{
                 @include flex(row,center,start);
                 gap: 1rem;
-
                 @include mobile {
                     @include flex(row,center,space-around);
                 }

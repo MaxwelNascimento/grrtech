@@ -99,6 +99,9 @@
 .header-navbar ul .disabled a {
   cursor: default;
 }
+.header-navbar ul .disabled a:hover {
+  color: #ffffff;
+}
 .header-buttons {
   flex-direction: row;
   align-items: center;
@@ -272,7 +275,7 @@ main .section-form-btn {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-top: 1rem;
+  margin: 2rem 0 3rem 0;
 }
 main .section-form-btn button {
   color: #f79f09;
