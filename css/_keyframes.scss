@@ -1,0 +1,25 @@
+@use './variables' as *;
+
+// TRANSIÇÃO DO PONTO FINAL ALTERNANDO CORES
+
+@keyframes dotTransition {
+    0% { 
+        color: $col-secondary-d;
+    }
+
+    25% {
+        color: $orange;
+    }
+
+    50% {
+        color: $pink;
+    }
+
+    75% {
+        color: $col-primary;
+    }
+
+    100% {
+        color: $col-secondary-l;
+    }
+}
